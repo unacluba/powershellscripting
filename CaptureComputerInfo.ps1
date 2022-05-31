@@ -1,0 +1,1 @@
+$CaptureComputerInfo = Get-Computerinfo -Property WindowsEditionID,WindowsVersion,OsArchitecture,CsUserName,CsWorkGroup,CsUserName,CsSystemType,CsDomain,BiosFirmWareType,WindowsProductName
