@@ -1,0 +1,14 @@
+# Powershell
+
+w32tm /query /status /verbose | Select-String 'Time source'
+
+
+# Python 
+
+import subprocess
+
+output = subprocess.check_output('w32tm /query /status /verbose', shell=True).decode()
+for line in output.splitlines():
+    if 'Time source' in line:
+        print(line)
+        break
