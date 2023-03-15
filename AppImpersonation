@@ -1,0 +1,6 @@
+# Set account to enable application impersonation
+
+$User = changeme
+Connect-ExchangeOnline
+Enable-OrganizationCustomization
+New-ManagementRoleAssignment -Role "ApplicationImpersonation" -User $User
