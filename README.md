@@ -8,3 +8,5 @@ _CheckUpdates.ps1_ is used to get information about the installed Windows Update
 _GetLocalDrives.ps1_ can be used to view information of local drives, network drive mappings.
 
 _Get-Whoami.ps1_ gathers some information about the logged on user: username, group membership and privileges.
+
+
