@@ -12,7 +12,7 @@ New-ADServiceAccount -Name MDIGMSA -DNSHostName MDIGMSA.YOURDOMAIN.local �
 
 # Allow GSMA to retrieve password 
 # User a $ sign at the end of each hostname
-Set-ADServiceAccount -Identity MDIGSMA -PrincipalsAllowedToRetrieveManagedPassword SERVERNAME01$
+Set-ADServiceAccount -Identity MDIGMSA -PrincipalsAllowedToRetrieveManagedPassword SERVERNAME01$
 
 
 # Get gMSA details
