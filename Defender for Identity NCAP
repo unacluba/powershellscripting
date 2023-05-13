@@ -1,0 +1,3 @@
+Stop-Service -Name AATPSensorUpdater -Force; Stop-Service -Name AATPSensor -Force
+./npcap-1.00-oem.exe /loopback_support=no /winpcap_mode=yes /admin_only=no /S
+Start-Service -Name AATPSensorUpdater; Start-Service -Name AATPSensor
